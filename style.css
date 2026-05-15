@@ -1,0 +1,42 @@
+body {
+    background-image: url(multimedia/fondo.png) ;
+    background-size: cover;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+}
+
+div {
+    width: 300px;
+    height: 400px;
+    background-color: aqua;  
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+div:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+div h2 {
+    text-align: center;
+    color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+div img {
+    display: block;
+    margin: auto;
+}
+
+div p {
+    text-align: center;
+      font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
