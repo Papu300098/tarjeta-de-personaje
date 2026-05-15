@@ -1,5 +1,5 @@
 body {
-    background-image: url(multimedia/fondo.png) ;
+    background-image: url(fondo.png) ;
     background-size: cover;
     display: flex;
     padding: 100px;
